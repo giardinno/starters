@@ -1,0 +1,11 @@
+apiVersion: v2
+name: challenge-service
+description: Starter for service-challenge
+type: application
+version: 1.0.0
+appVersion: 1.0.0
+maintainers:
+  - name: Giardino
+    email: infected_giardinno@hotmail.com
+keywords:
+  - Challenge

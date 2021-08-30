@@ -1,0 +1,16 @@
+namespace: challenge
+
+deployment:
+  replicas: 1
+  container:
+    name: challenge-cont
+    repository: "188050940132.dkr.ecr.us-east-1.amazonaws.com/"
+    image: "giardino/<CHARTNAME>"
+    tag: "1.0.0"
+    pullPolicy: Always
+    containerPort: 8080
+    
+service:
+  protocol: TCP
+  targetPort: 8080
+  port: 80
