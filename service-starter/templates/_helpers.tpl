@@ -6,7 +6,7 @@ rules:
       pathType: Prefix
       backend:
         service:
-          name: <CHARTNAME>
+          name: <CHARTNAME>-svc
           port:
             number: 80
 {{- end }}
